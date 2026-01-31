@@ -3,7 +3,7 @@
 # Telecom-Churn-Analysis-
 Retaining customers is crucial for long-term success. Churn analysis is a key technique used to understand and reduce this customer attrition. It involves examining customer data to identify patterns and reasons behind customer departures. 
 
-Today we will be looking at open source data from a Telecom Company based in India. And the data set includes the following: 
+Today we will be looking at open source data from a Telecom Company, Aircel based in India. And the data set includes the following: 
 
 
 # DEMOGRAPHIC 
