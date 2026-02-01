@@ -16,3 +16,5 @@ Today we will be looking at open source data from a Telecom Company, Aircel base
 |Married| Marital status of Customer |
 |State| State customer resides in |
 
+
+All the folling columns cover how long the customer has been tenured to subscription, the value deals that got customers to intially start the subscription, and lastly all of the different services that they had such as; Phone service, Multiple Lines, Internet service. Then lastly the column of most importance is the "Customer Status" column that showcase the current status of the customer's subscription and if they are churned, the reason why they left is also a part of the data set. 
