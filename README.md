@@ -1,4 +1,4 @@
-<img width="966" height="973" alt="image" src="https://github.com/user-attachments/assets/69d548b7-4f17-4d45-9b29-ff9f4bee112f" />
+<img width="250" height="252" alt="image" src="https://github.com/user-attachments/assets/9e17d43d-763b-4ae1-a95e-9442aa0459d7" />
 
 # Telecom-Churn-Analysis-
 Retaining customers is crucial for long-term success. Churn analysis is a key technique used to understand and reduce this customer attrition. It involves examining customer data to identify patterns and reasons behind customer departures. 
