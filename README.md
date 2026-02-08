@@ -1,4 +1,5 @@
-<img width="3840" height="2160" alt="image" src="https://github.com/user-attachments/assets/c7ec6a72-fdca-46e2-9fd9-0d6b3015ef2a" />
+<img width="500" height="281" alt="image" src="https://github.com/user-attachments/assets/3dea1337-6913-4f07-887c-ae8d5cdcb6b0" />
+
 
 # Telecom Churn Analysis
 ## I. Introduction/Context
