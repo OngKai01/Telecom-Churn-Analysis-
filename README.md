@@ -19,6 +19,8 @@ Bharti Airtel Limited, commonly known as Airtel, is a premier Indian multination
 |State| State customer resides in |
 
 # ACCOUNT DETAILS AND SELECTED SERVICES 
+|Column Name | Description | 
+|--------|----------|
 |Number_of_Referrals| # of new customers this customer has referred |
 |Tenure_in_Months| # of months the customer has been with the company|
 |Value_Deal| The specific special discounted or promotional plan that the customer has|
@@ -45,6 +47,8 @@ Bharti Airtel Limited, commonly known as Airtel, is a premier Indian multination
 |Total_Revenue|Net revenue generated from the customer after refunds|
 
 # Important Churn Status/Details
+|Column Name | Description | 
+|--------|----------|
 |Customer_Status| Customer Status with the services |
 |Churn_Category| Broad classification of why the customer left |
 |Churn_Reason| The detailed reason for the the customer's departure|
