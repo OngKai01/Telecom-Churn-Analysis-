@@ -7,9 +7,7 @@
 ## WHO IS AIRTEL? 
 Bharti Airtel Limited, commonly known as Airtel, is a premier Indian multinational telecommunications service. The company has significat amounts of data on its customers. Airtel has complied a detailed dataset capturing customer demographics, service usage, billing history and churn behavior. This projects aims to analyze the churn rate of Airtel's customers by thoroughly examining this data to identify patterns and root causes behind customer departures. The insights gained will empower Airtel to take proactive, targeted measures such as a personalized retention campaigns and tailored offers to enchance cusotmers satisfaction and ultimately strengthen loyaly 
 
-
 ### DEMOGRAPHIC 
-
 |Column Name | Description | 
 |--------|----------|
 |Customer_ID| Unique Identifier for each customer |
@@ -25,7 +23,9 @@ Bharti Airtel Limited, commonly known as Airtel, is a premier Indian multination
 |Churn_Category| Broad classification of why the customer left | 
 |Churn_Reason| The detailed reason for the the customer's departure|
 
-## II. DATA CLEANING 
+## II. DATA CLEANING/PREPARATION 
+
+
 ## III. DASHBOARD 
 Based on the Power BI dashboard, the AIRTEL TELECOM Churn Analysis Summary covers the following areas:
 
@@ -51,11 +51,36 @@ This section presents key business insights derived from MySQL queries and visua
 <summary> Question: What is the overall churn rate, and how does it vary by contract type? </summary>
 <img width="306" height="146" alt="image" src="https://github.com/user-attachments/assets/b41a40ac-8942-467f-9830-08927b00ded1" />
 <img width="395" height="75" alt="image" src="https://github.com/user-attachments/assets/69a636d6-a8b5-4353-b50b-3bcf23b5ab19" />
-  
+
 Observations: 
 - Month-to-Month have alarmingly high churn 
 - Long-Term contrcts dramatically reduce churn 
 
+</details>
+<details>
+<summary> Question: What is the overall churn rate, and how does it vary by contract type? </summary>
+<img width="306" height="146" alt="image" src="https://github.com/user-attachments/assets/b41a40ac-8942-467f-9830-08927b00ded1" />
+<img width="395" height="75" alt="image" src="https://github.com/user-attachments/assets/69a636d6-a8b5-4353-b50b-3bcf23b5ab19" />
+
+Observations: 
+- Month-to-Month have alarmingly high churn 
+- Long-Term contracts dramatically reduce churn 
+
+</details>
+----------------------------------------------------------------------------------------
+<details>
+<summary> Question: How do customer tenure and monthly charges correlate with churn? </summary>
+<img width="243" height="74" alt="image" src="https://github.com/user-attachments/assets/47517ba2-d101-4055-8114-eee47ace5080" />
+<img width="205" height="76" alt="image" src="https://github.com/user-attachments/assets/4bb379fb-9607-40fa-bb7d-ab2a072896ac" />
+
+Observations: 
+- Amongst all Customer_Status , the churned customers does seem to have the highest montly charge.
+- The average Tenure in months was on average 17 months for customers of all status, suggesting that there is not correlation between customer tenure and their chances of churning.
+- 
+</details>
+----------------------------------------------------------------------------------------
+<details>
+<summary> Question: What is the overall churn rate, and how does it vary by contract type? </summary>
 </details>
 ## V. RECOMMENDATIONS
 
