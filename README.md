@@ -51,10 +51,11 @@ This section presents key business insights derived from MySQL queries and visua
 <summary> Question: What is the overall churn rate, and how does it vary by contract type? </summary>
 <img width="306" height="146" alt="image" src="https://github.com/user-attachments/assets/b41a40ac-8942-467f-9830-08927b00ded1" />
 <img width="395" height="75" alt="image" src="https://github.com/user-attachments/assets/69a636d6-a8b5-4353-b50b-3bcf23b5ab19" />
-Observations: 
--> Month-to-Month have alarmingly high churn 
--> Long-Term contrcts dramatically reduce churn 
   
+Observations: 
+- Month-to-Month have alarmingly high churn 
+- Long-Term contrcts dramatically reduce churn 
+
 </details>
 ## V. RECOMMENDATIONS
 
