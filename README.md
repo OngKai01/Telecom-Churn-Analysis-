@@ -27,12 +27,20 @@ Bharti Airtel Limited, commonly known as Airtel, is a premier Indian multination
 
 ## II. DATA CLEANING 
 ## III. DASHBOARD 
-Power BI Visualizations: I've generated diverse Power BI visuals to support the company in conducting this extensive churn analysis, briefly outlined below:
+Based on the Power BI dashboard, the AIRTEL TELECOM Churn Analysis Summary covers the following areas:
 
-The overview cards provide a quick glance at total customers, churn rate, and the count of churned customers. 
-A clustered bar chart succinctly reveals the predominant reasons behind churn, highlighting the impact of competitor offers. 
-Pie and donut charts shed light on the distribution of churned customers by category and contract type, exposing intriguing patterns. 
-Geographical nuances are brought to light with a map chart showcasing state-wise churn rates.
+*Overall Customer Metrics: Overview of total customers, new joiners, and churn figures.
+
+*Churn Demographics: Breakdown of customer churn by gender and age group.
+
+*Service & Product Analysis: Churn in relation to specific services used and internet service types (e.g., Fiber Optic, DSL).
+
+*Billing & Payment Factors: Analysis of churn by payment method, contract type, and monthly charge range.
+
+*Customer Tenure: Churn distribution across different customer tenure groups.
+
+*Churn Reasons: Categorization of churn by primary cause (e.g., price, dissatisfaction).
+
 
 <img width="1487" height="803" alt="image" src="https://github.com/user-attachments/assets/daf94d86-5a5f-4c38-964d-cc925d3f68da" />
 
