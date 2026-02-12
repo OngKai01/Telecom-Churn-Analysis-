@@ -47,6 +47,7 @@ Also, to facilitate the creation of certain visualizations, new columns are made
 
 Then I connected the database with POWER BI. 
 
+</details>
 
 ## III. DASHBOARD 
 Based on the Power BI dashboard, the AIRTEL TELECOM Churn Analysis Summary covers the following areas:
