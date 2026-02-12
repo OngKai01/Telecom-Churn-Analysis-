@@ -27,7 +27,18 @@ Bharti Airtel Limited, commonly known as Airtel, is a premier Indian multination
 To ensure data integrity and scalabitlity, this project utilizes Microsoft SQL Server for the backend database and Power BI for visualizations. 
  
 <details>
-<summary> **Phase I: DATA IMPORTING & SQL STAGING** </summary>
+<summary> ** Phase I: DATA IMPORTING & SQL STAGING ** </summary>
+The initial phase focuses on moving raw data into a structured environment where ti can be cleaned without affecting source files. Setup a dedicated database to host all tables and the "Customer_ID" as the primary key to ensure each row is unique identifier or in this case customer. 
+ 
+Changing all the cells with out any data to be set as NULLs during import because NULLs are easier to deal with than empty strings in MYSQL. 
+</details>
+
+<details>
+<summary> ** Phase II: DATA CLEANING IN MYSQL SERVER ** </summary>
+</details>
+
+<details>
+<summary> ** Phase III:POWER BI DATA TRAN ** </summary>
 </details>
 
 ## III. DASHBOARD 
