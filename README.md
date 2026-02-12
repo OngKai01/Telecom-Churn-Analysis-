@@ -24,7 +24,11 @@ Bharti Airtel Limited, commonly known as Airtel, is a premier Indian multination
 |Churn_Reason| The detailed reason for the the customer's departure|
 
 ## II. DATA CLEANING/PREPARATION 
-
+To ensure data integrity and scalabitlity, this project utilizes Microsoft SQL Server for the backend database and Power BI for visualizations. 
+ 
+<details>
+<summary> **Phase I: DATA IMPORTING & SQL STAGING** </summary>
+</details>
 
 ## III. DASHBOARD 
 Based on the Power BI dashboard, the AIRTEL TELECOM Churn Analysis Summary covers the following areas:
@@ -56,9 +60,8 @@ Observations:
 - Month-to-Month have alarmingly high churn 
 - Long-Term contrcts dramatically reduce churn 
 
-
 </details>
-----------------------------------------------------------------------------------------
+
 <details>
 <summary> Question: How do customer tenure and monthly charges correlate with churn? </summary>
 <img width="243" height="74" alt="image" src="https://github.com/user-attachments/assets/47517ba2-d101-4055-8114-eee47ace5080" />
@@ -69,7 +72,7 @@ Observations:
 - The average Tenure in months was on average 17 months for customers of all status, suggesting that there is not correlation between customer tenure and their chances of churning.
 - 
 </details>
-----------------------------------------------------------------------------------------
+
 <details>
 <summary> Question: What is the overall churn rate, and how does it vary by contract type? </summary>
 </details>
