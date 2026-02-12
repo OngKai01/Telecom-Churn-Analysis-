@@ -46,6 +46,8 @@ SELECT
 Also, to facilitate the creation of certain visualizations, new columns are made to narrow the discrete amount of classifications to have a disgestible and clean graph. For example we have a column for the Age of the customers which has ages ranging from 30s to 80s, and while this is a great metric to have for analysis, it is very hard to visualize this in a graph so you have to make a smaller age ranges like 'Less than 20,' '20 to 35,' '35 to 50,' and 'Greater than 50' using conditional logic to make the visuals more neat. And I handled that in Microsoft Excel. 
 
 Then I connected the database with POWER BI. 
+
+
 ## III. DASHBOARD 
 Based on the Power BI dashboard, the AIRTEL TELECOM Churn Analysis Summary covers the following areas:
 
