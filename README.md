@@ -38,11 +38,10 @@ Changing all the cells with out any data to be set as NULLs during import becaus
 First, a comprehensive query script is used to identify all of the NULLs amongst all of the columns; 
  
 ```javascript
-// Example JavaScript code
-function helloWorld() {
-  console.log('Hello, world!');
-}
-helloWorld();
+SELECT
+ SUM(CASE WHEN Customer_ID IS NULL THEN 1 ELSE 0 END) AS Customer_ID_Null_Count,
+ SUM(CASE WHEN Tenure_in_Months IS NULL THEN 1 ELSE 0 END) AS Tenure_in_Months_Null_Count,
+ SUM(CASE WHEN Value_Deal IS NULL THEN 1 ELSE 0 END) AS Value_Deal_Null_Count
 ```
  
 </details>
