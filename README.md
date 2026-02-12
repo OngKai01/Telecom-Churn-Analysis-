@@ -35,21 +35,17 @@ Changing all the cells with out any data to be set as NULLs during import becaus
 
 <details>
 <summary>  Phase II: DATA CLEANING IN MYSQL DATABASE  </summary>
-First, a comprehensive query script is used to identify all of the NULLs amongst all of the columns; 
- 
-```javascript
+First, a comprehensive query script is used to identify all of the NULLs amongst all of the columns. Then the NULLs are replaces in the dataset using the COALESCE() function with the appropriate values. 
+
+```
 SELECT
  SUM(CASE WHEN Customer_ID IS NULL THEN 1 ELSE 0 END) AS Customer_ID_Null_Count,
  SUM(CASE WHEN Tenure_in_Months IS NULL THEN 1 ELSE 0 END) AS Tenure_in_Months_Null_Count,
  SUM(CASE WHEN Value_Deal IS NULL THEN 1 ELSE 0 END) AS Value_Deal_Null_Count
 ```
- 
-</details>
+Also, to facilitate the creation of certain visualizations, new columns are made to narrow the discrete amount of classifications to have a disgestible and clean graph. For example we have a column for the Age of the customers which has ages ranging from 30s to 80s, and while this is a great metric to have for analysis, it is very hard to visualize this in a graph so you have to make a smaller age ranges like 'Less than 20,' '20 to 35,' '35 to 50,' and 'Greater than 50' using conditional logic to make the visuals more neat. And I handled that in Microsoft Excel. 
 
-<details>
-<summary>  Phase III:POWER BI DATA TRANSFORMATION </summary>
-</details>
-
+Then I connected the database with POWER BI. 
 ## III. DASHBOARD 
 Based on the Power BI dashboard, the AIRTEL TELECOM Churn Analysis Summary covers the following areas:
 
