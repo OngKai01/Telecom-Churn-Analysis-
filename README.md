@@ -34,11 +34,18 @@ Changing all the cells with out any data to be set as NULLs during import becaus
 </details>
 
 <details>
-<summary>  Phase II: DATA CLEANING IN MYSQL SERVER  </summary>
+<summary>  Phase II: DATA CLEANING IN MYSQL DATABASE  </summary>
+First, a comprehensive query script is used to identify all of the NULLs amongst all of the columns; 
+``
+SELECT
+ SUM(CASE WHEN Value_Deal IS NULL THEN 1 ELSE 0 END) Value_Deal_Null_Count
+ SUM(CASE WHEN Multiple_Lines IS NULL THEN 1 ELSE 0 END) Multiple_Lines_Null_Count
+``
+ 
 </details>
 
 <details>
-<summary>  Phase III:POWER BI DATA TRAN  </summary>
+<summary>  Phase III:POWER BI DATA TRANSFORMATION </summary>
 </details>
 
 ## III. DASHBOARD 
