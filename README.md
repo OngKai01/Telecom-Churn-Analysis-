@@ -53,17 +53,11 @@ Then I connected the database with POWER BI.
 Based on the Power BI dashboard, the AIRTEL TELECOM Churn Analysis Summary covers the following areas:
 
 * **Overall Customer Metrics:** Overview of total customers, new joiners, and churn figures.
-
 * **Churn Demographics:** Breakdown of customer churn by gender and age group.
-
 * **Service & Product Analysis:** Churn in relation to specific services used and internet service types (e.g., Fiber Optic,  DSL).
-
 * **Billing & Payment Factors:** Analysis of churn by payment method, contract type, and monthly charge range.
-
 * **Customer Tenure:** Churn distribution across different customer tenure groups.
-
 * **Churn Reasons:** Categorization of churn by primary cause (e.g., price, dissatisfaction).
-
 
 <img width="1487" height="803" alt="image" src="https://github.com/user-attachments/assets/daf94d86-5a5f-4c38-964d-cc925d3f68da" />
 
@@ -95,5 +89,15 @@ Observations:
 <details>
 <summary> Question: What is the overall churn rate, and how does it vary by contract type? </summary>
 </details>
+
+<details>
+<summary> Question: Does the absense of specific services lead to churn? </summary>
+</details>
+
+<details>
+<summary> Question: How does pricing and revenue impact churn?</summary>
+</details>
+
+
 ## V. RECOMMENDATIONS
 
