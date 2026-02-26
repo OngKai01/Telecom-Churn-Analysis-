@@ -7,7 +7,7 @@ what
 ## WHO IS AIRTEL? 
 Bharti Airtel Limited, commonly known as Airtel, is a premier Indian multinational telecommunications service. The company has significant amounts of data on its customers, and Airtel has complied a detailed dataset capturing customer demographics, service usage, billing history and churn behavior. This projects aims to analyze the churn rate of Airtel's customers by thoroughly examining this data to identify patterns and root causes behind customer departures. The insights gained will empower Airtel to take proactive, targeted measures such as a personalized retention campaigns and tailored offers to enhance cusotmers satisfaction and ultimately strengthen loyalty 
 
-### DEMOGRAPHIC 
+### Demographics
 |Column Name | Description | 
 |--------|----------|
 |Customer_ID| Unique Identifier for each customer |
