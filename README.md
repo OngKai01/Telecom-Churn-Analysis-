@@ -87,11 +87,35 @@ Observations:
 </details>
 
 <details>
-<summary> Question: What is the overall churn rate, and how does it vary by contract type? </summary>
-</details>
-
-<details>
 <summary> Question: Does the absense of specific services lead to churn? </summary>
+Understanding this questions helps the telecom company understand which services acts as retention drivers and by identifying these services, this can work to help the company allocate retention resources more effectively. 
+
+Using MYSQL I tacked this question by calculating the churn percentage of customers with or without each of the services to see if they have a role in the churning of customers. 
+
+```
+SELECT Unlimited_Data, 
+COUNT(*) AS Total_Customers, 
+SUM(CASE WHEN Customer_Status = "Churned" THEN 1 ELSE 0 END) AS Churned,
+ROUND(SUM(CASE WHEN Customer_Status = "Churned" THEN 1 ELSE 0 END)/COUNT(*), 2) AS Churn_Percentage
+FROM db_churn.tweaked_data
+GROUP BY Unlimited_Data;
+
+```
+Then I repeated the same procedure for all the different services offered under the company, which gives us; 
+
+## Service Impact on Customer Churn 
+| Service | Churn Rate (With) | Churn Rate (Without) |
+|---------|-------------------|----------------------|
+|Online Security|15%|32%|
+|Phone Service|27%|26%|
+|Multiple Lines|29%|26%|
+|Internet Service|32%|8%|
+|Device Protection Plan|23%|29%|
+|Premium Support|15%|32%|
+|Streaming TV|30%|25%|
+|Unlimited Data|32%|17%|
+
+ 
 </details>
 
 <details>
