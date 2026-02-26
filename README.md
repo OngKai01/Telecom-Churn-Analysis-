@@ -131,4 +131,19 @@ Key Observations:
 
 
 ## V. RECOMMENDATIONS
+-Fix Jammu & Kashmir region — 57% churn rate is unacceptable
+
+-Promote auto-pay — mailed check users churn at 38% vs. 15% for auto-pay
+
+-Investigate competitors — 44% of churners leave for better offers
+
+-Reach phone-only customers — 94% of churners don't have internet
+
+-Improve customer service — 34% churn due to attitude/dissatisfaction
+
+-Review family plans — 55% of churners had multiple lines
+
+-Convert phone-only to internet — internet customers are stickier
+
+-Create loyalty program — long-term customers churn at only 12%
 
