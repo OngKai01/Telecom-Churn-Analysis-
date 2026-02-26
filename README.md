@@ -115,7 +115,7 @@ Then I repeated the same procedure for all the different services offered under 
 |Premium Support|15%|32%|
 |Streaming TV|30%|25%|
 |Unlimited Data|32%|17%|
-|---------|-------------------|----------------------|
+
 
 Key Observations: 
 - The "Negative Impact" services, where the churn rate is gigher for customers with the service. For the following services; phone service, multiple lines, streaming tv, and unlimited data. This could mean that the services listed might be porrly implemented or unreliable. Maybe the folloing services might be priced too high for the value.
