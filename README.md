@@ -115,8 +115,13 @@ Then I repeated the same procedure for all the different services offered under 
 |Premium Support|15%|32%|
 |Streaming TV|30%|25%|
 |Unlimited Data|32%|17%|
-what does this data set tell you? 
+|---------|-------------------|----------------------|
 
+Key Observations: 
+- The "Negative Impact" services, where the churn rate is gigher for customers with the service. For the following services; phone service, multiple lines, streaming tv, and unlimited data. This could mean that the services listed might be porrly implemented or unreliable. Maybe the folloing services might be priced too high for the value.
+- Based on the churn rate percentage, Custoemrs value digital security and support. Telling us that the customes worry more about the protection of their data than most of the other services provided.
+- The most stricking finding is the customers with internet service churn at a staggering 32% while those without internet service churn only at 8%.
+- The customers with unlimited data has a churn rate of 32% as well indicating that the network data provided might be poor or the competitor is offering a better deal for the same service. 
  
 </details>
 
