@@ -61,7 +61,7 @@ Based on the Power BI dashboard, the AIRTEL TELECOM Churn Analysis Summary cover
 
 <img width="1487" height="803" alt="image" src="https://github.com/user-attachments/assets/daf94d86-5a5f-4c38-964d-cc925d3f68da" />
 
-## IV.EXPLORATORY DATA ANALYSIS 
+## IV. EXPLORATORY DATA ANALYSIS 
 This section presents key business insights derived from MySQL queries and visualized through an interactive Power BI dashboard. The analysis focuses on answering critical questions about customer churn, service adoption, and revenue patterns to drive data-informed retention strategies.
 
 <details>
