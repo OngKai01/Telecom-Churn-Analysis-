@@ -88,7 +88,8 @@ Observations:
 
 <details>
 <summary> Question: Does the absense of specific services lead to churn? </summary>
-Understanding this questions helps the telecom company understand which services acts as retention drivers and by identifying these services, this can work to help the company allocate retention resources more effectively. 
+ 
+Understanding this questions helps the telecom company uncover which services acts as retention drivers and by identifying these services, this can work to help the company allocate retention resources more effectively. 
 
 Using MYSQL I tacked this question by calculating the churn percentage of customers with or without each of the services to see if they have a role in the churning of customers. 
 
